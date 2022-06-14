@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>前端 - 标签 - Milo&#39;s Blog</title>
+        <link>https://milo980412.github.io/tags/%E5%89%8D%E7%AB%AF/</link>
+        <description>前端 - 标签 - Milo&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>250533497@qq.com (Milo)</managingEditor>
+            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Tue, 14 Jun 2022 16:38:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/tags/%E5%89%8D%E7%AB%AF/" rel="self" type="application/rss+xml" /><item>
+    <title>第一篇文章</title>
+    <link>https://milo980412.github.io/first_post/</link>
+    <pubDate>Tue, 14 Jun 2022 16:38:43 &#43;0800</pubDate>
+    <author>Milo</author>
+    <guid>https://milo980412.github.io/first_post/</guid>
+    <description><![CDATA[引用 笔记来源1 尚硅谷最新版JavaScript基础全套教程完整版(140集实战教学,JS从入门到精通)_哔哩哔哩_bilibili JS简介 1]]></description>
+</item>
+</channel>
+</rss>
