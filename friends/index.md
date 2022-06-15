@@ -22,3 +22,17 @@ logo="https://cdn.jsdelivr.net/gh/zsqw123/cdn@master/img/custom/icon.webp"
 word="岳女士 yyds"
 >}}
 
+{{< friend
+name="东南dnf"
+url="https://dnf.blog.doyi.online"
+logo="https://7463-tcb-nkd87viq9wheg653bca0d-a8621b-1304207482.tcb.qcloud.la/89a00170a50baeb0687707a2c75a0c5.jpg"
+word="周顺大弟子"
+>}}
+
+{{< friend
+name="dextercai"
+url="https://blog.dextercai.com/"
+logo="https://cdn.jsdelivr.net/gh/dextercai/staticStore@latest/avatar/blog.png"
+word="Helo.😄"
+>}}
+
