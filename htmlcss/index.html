@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>HTML&amp;CSS - Milo&#39;s Blog</title><meta name="Description" content="JS从入门到精通"><meta property="og:title" content="HTML&amp;CSS" />
+<meta property="og:description" content="JS从入门到精通" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://milo980412.github.io/htmlcss/" /><meta property="og:image" content="https://milo980412.github.io/47"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-15T13:45:43+08:00" />
+<meta property="article:modified_time" content="2021-06-15T13:45:43+08:00" /><meta property="og:site_name" content="Milo&#39;s Blog" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://milo980412.github.io/47"/>
+
+<meta name="twitter:title" content="HTML&amp;CSS"/>
+<meta name="twitter:description" content="JS从入门到精通"/>
+<meta name="application-name" content="Milo&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Milo&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/aniya.webp"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://milo980412.github.io/htmlcss/" /><link rel="prev" href="https://milo980412.github.io/js%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "HTML\u0026CSS",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/milo980412.github.io\/htmlcss\/"
+        },"genre": "posts","keywords": "前端, HTML, CSS","wordcount":  3699 ,
+        "url": "https:\/\/milo980412.github.io\/htmlcss\/","datePublished": "2021-06-15T13:45:43+08:00","dateModified": "2021-06-15T13:45:43+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Milo"
+            },"description": "JS从入门到精通"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <a href="https://github.com/milo980412" class="github-corner" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="3.5rem" height="3.5rem" viewBox="0 0 250 250" style="fill:#454648; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+        <div class="header-title">
+            <a href="/" title="Milo&#39;s Blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Milo&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/Milo980412" rel="noopener noreffer" target="_blank"><i class='fab fa-github'></i>  </a><a class="menu-item" href="/donate/"> 赞赏 </a><a class="menu-item" href="/friends/"><i class='fas fa-fw fa-fan fa-spin'></i> 友链 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Milo&#39;s Blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Milo&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/Milo980412" title="" rel="noopener noreffer" target="_blank"><i class='fab fa-github'></i></a><a class="menu-item" href="/donate/" title="">赞赏</a><a class="menu-item" href="/friends/" title=""><i class='fas fa-fw fa-fan fa-spin'></i>友链</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">HTML&CSS</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Milo</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>技术</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-06-15">2021-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3699 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 8 分钟&nbsp;<span id="/htmlcss/" class="leancloud_visitors" data-flag-title="HTML&amp;CSS">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#目录">目录</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#1-软件的分类">1. 软件的分类</a>
+      <ul>
+        <li><a href="#11-系统软件">1.1. 系统软件</a></li>
+        <li><a href="#12-应用软件">1.2. 应用软件</a></li>
+        <li><a href="#13-游戏软件">1.3. 游戏软件</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-客户端与服务器">2. 客户端与服务器</a>
+      <ul>
+        <li><a href="#21-服务器">2.1. 服务器</a></li>
+        <li><a href="#22-客户端">2.2. 客户端</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-网页的特点">3. 网页的特点</a></li>
+    <li><a href="#4-网页简史">4. 网页简史</a></li>
+    <li><a href="#5-浏览器和网页">5. 浏览器和网页</a>
+      <ul>
+        <li><a href="#51-浏览器的问题">5.1. 浏览器的问题</a></li>
+        <li><a href="#52-w3c-的建立">5.2. W3C 的建立</a></li>
+        <li><a href="#53-网页的结构思想">5.3. 网页的结构思想</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-网页的基本结构">6. 网页的基本结构</a>
+      <ul>
+        <li><a href="#61-迭代">6.1. 迭代</a></li>
+        <li><a href="#62-文档声明doctype">6.2. 文档声明（doctype）</a></li>
+        <li><a href="#63-字符编码">6.3. 字符编码</a></li>
+        <li><a href="#64-常见的字符集">6.4. 常见的字符集</a></li>
+        <li><a href="#65-html5-的基本结构">6.5. HTML5 的基本结构</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>引用<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>笔记链接</strong> <a href="https://www.yuque.com/books/share/e146d482-d67e-4e7f-a0c0-e35e9bf721b6?#" target="_blank" rel="noopener noreffer">尚硅谷Web前端HTML5&amp;CSS3初学者零基础入门全套完整版学习笔记</a></div>
+        </div>
+    </div>
+<h3 id="目录">目录</h3>
+<ul>
+<li>01_前端简介.md</li>
+<li>02_前端开发准备.md</li>
+<li>03_字符实体与语义标签.md</li>
+<li>04_CSS语法与选择器.md</li>
+<li>05_样式继承与其他概念.md</li>
+<li>06_盒模型.md</li>
+<li>07_实战练习.md</li>
+<li>08_盒模型补径场实战.md</li>
+<li>09_浮动.md</li>
+<li>10_高度塌陷与BFC.md</li>
+<li>11 定位.md</li>
+<li>12_字体.md</li>
+<li>13_背景.md</li>
+<li>14雪碧图与渐变.md</li>
+<li>15_表格.md</li>
+<li>16_过渡与动画.md</li>
+<li>17_变形:平转与缩放.md</li>
+<li>18_less 简介.md</li>
+<li>19_弹性盒简介.md</li>
+<li>20_像素与视口.md</li>
+<li>21_媒体查询.md</li>
+</ul>
+<p>部分内容如下：</p>
+<h1 id="前端简介">前端简介</h1>
+<h2 id="1-软件的分类">1. 软件的分类</h2>
+<h3 id="11-系统软件">1.1. 系统软件</h3>
+<ul>
+<li>Windows</li>
+<li>Linux</li>
+<li>macOS</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/4483604c1dfa2ccac415037bebe865ac.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/4483604c1dfa2ccac415037bebe865ac.png, https://img-blog.csdnimg.cn/img_convert/4483604c1dfa2ccac415037bebe865ac.png 1.5x, https://img-blog.csdnimg.cn/img_convert/4483604c1dfa2ccac415037bebe865ac.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/4483604c1dfa2ccac415037bebe865ac.png"
+        title="image-20210512233610483" /></p>
+<h3 id="12-应用软件">1.2. 应用软件</h3>
+<ul>
+<li>Office</li>
+<li>QQ</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/dc09337d08b3ff7ef46db165b0893dc1.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/dc09337d08b3ff7ef46db165b0893dc1.png, https://img-blog.csdnimg.cn/img_convert/dc09337d08b3ff7ef46db165b0893dc1.png 1.5x, https://img-blog.csdnimg.cn/img_convert/dc09337d08b3ff7ef46db165b0893dc1.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/dc09337d08b3ff7ef46db165b0893dc1.png"
+        title="image-20210512233641461" /></p>
+<h3 id="13-游戏软件">1.3. 游戏软件</h3>
+<ul>
+<li>绝地求生</li>
+<li>王者荣耀</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/171b4e8e4d1a3ed391fe1232ca8b5db6.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/171b4e8e4d1a3ed391fe1232ca8b5db6.png, https://img-blog.csdnimg.cn/img_convert/171b4e8e4d1a3ed391fe1232ca8b5db6.png 1.5x, https://img-blog.csdnimg.cn/img_convert/171b4e8e4d1a3ed391fe1232ca8b5db6.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/171b4e8e4d1a3ed391fe1232ca8b5db6.png"
+        title="image-20210512233650896" /></p>
+<h2 id="2-客户端与服务器">2. 客户端与服务器</h2>
+<p>通常情况下，现在的软件一般由两个部分组成：</p>
+<ul>
+<li>客户端：用户通过客户端来使用软件。</li>
+<li>服务器：服务器负责在远程处理业务逻辑。</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/c2219b3cbe5bf8a0ae0e1d6ff2e62a02.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/c2219b3cbe5bf8a0ae0e1d6ff2e62a02.png, https://img-blog.csdnimg.cn/img_convert/c2219b3cbe5bf8a0ae0e1d6ff2e62a02.png 1.5x, https://img-blog.csdnimg.cn/img_convert/c2219b3cbe5bf8a0ae0e1d6ff2e62a02.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/c2219b3cbe5bf8a0ae0e1d6ff2e62a02.png"
+        title="image-20210512233922478" /></p>
+<h3 id="21-服务器">2.1. 服务器</h3>
+<p>服务器开发的语言：</p>
+<ul>
+<li><mark>Java</mark></li>
+<li>PHP</li>
+<li>C#</li>
+<li>Python</li>
+<li><mark>Node.js</mark></li>
+<li>……</li>
+</ul>
+<h3 id="22-客户端">2.2. 客户端</h3>
+<p>客户端的形式</p>
+<ul>
+<li>文字客户端：占老的方式，通过命令行来使用软件</li>
+<li>图形化界面：通过点击拖动等来使用软件。Windows 中、macOS 中、Android、iOS 中的大部分应用。（<mark>C/S 架构</mark>）</li>
+<li><mark>网页</mark>：通过访问网页来使用软件。所有的网站都属于这个范畴。（<mark>B/S 架构</mark>）</li>
+</ul>
+<h2 id="3-网页的特点">3. 网页的特点</h2>
+<p>相较于传统的图形化界面，网页具有如下一些优点：</p>
+<ul>
+<li>不需要安装</li>
+<li>无需更新</li>
+<li>跨平台</li>
+</ul>
+<p>网页中使用的语言：</p>
+<ul>
+<li>HTML、CSS、JavaScript</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/f5642e91a1fb2527e99aede632ab4f1c.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/f5642e91a1fb2527e99aede632ab4f1c.png, https://img-blog.csdnimg.cn/img_convert/f5642e91a1fb2527e99aede632ab4f1c.png 1.5x, https://img-blog.csdnimg.cn/img_convert/f5642e91a1fb2527e99aede632ab4f1c.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/f5642e91a1fb2527e99aede632ab4f1c.png"
+        title="image-20210512234859315" /></p>
+<h2 id="4-网页简史">4. 网页简史</h2>
+<p>蒂姆·伯纳斯·李爵士，万维网的发明人。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/ad9a6b9a0a1774ffa3d08fa9b1b2a852.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/ad9a6b9a0a1774ffa3d08fa9b1b2a852.png, https://img-blog.csdnimg.cn/img_convert/ad9a6b9a0a1774ffa3d08fa9b1b2a852.png 1.5x, https://img-blog.csdnimg.cn/img_convert/ad9a6b9a0a1774ffa3d08fa9b1b2a852.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/ad9a6b9a0a1774ffa3d08fa9b1b2a852.png"
+        title="image-20210512235216613" /></p>
+<p>1991 年 8 月 6 日，世界上第一个服务器和第一个网站在欧洲核子研究中心上线。</p>
+<p>第一个网站：<a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noopener noreffer">http://info.cern.ch/hypertext/WWW/TheProject.html</a></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/e6d4e4b02575fa7b0e687c8e2ef76b47.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/e6d4e4b02575fa7b0e687c8e2ef76b47.png, https://img-blog.csdnimg.cn/img_convert/e6d4e4b02575fa7b0e687c8e2ef76b47.png 1.5x, https://img-blog.csdnimg.cn/img_convert/e6d4e4b02575fa7b0e687c8e2ef76b47.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/e6d4e4b02575fa7b0e687c8e2ef76b47.png"
+        title="image-20210512235231005" /></p>
+<h2 id="5-浏览器和网页">5. 浏览器和网页</h2>
+<p>有了浏览器我们只需要一个网址便可以访问任何的网站。</p>
+<p>而浏览器中所显示的内容正是我们所说的网页。</p>
+<p>网页原本的样子：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
+</span><span class="lnt">84
+</span><span class="lnt">85
+</span><span class="lnt">86
+</span><span class="lnt">87
+</span><span class="lnt">88
+</span><span class="lnt">89
+</span><span class="lnt">90
+</span><span class="lnt">91
+</span><span class="lnt">92
+</span><span class="lnt">93
+</span><span class="lnt">94
+</span><span class="lnt">95
+</span><span class="lnt">96
+</span><span class="lnt">97
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!--无障碍占位--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;J_accessibility&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!--顶通占位 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;J_promotional-top&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;shortcut&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;w&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;fl&#34;</span> <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_01&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dropdown&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;ttbar-mycity&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;fr&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span>
+</span></span><span class="line"><span class="cl">        <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore1 dropdown&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">id</span><span class="o">=</span><span class="s">&#34;ttbar-login&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_02&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">a</span>
+</span></span><span class="line"><span class="cl">          <span class="na">href</span><span class="o">=</span><span class="s">&#34;//passport.jd.com/uc/login?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="na">class</span><span class="o">=</span><span class="s">&#34;link-login&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&gt;</span>你好，请登录<span class="p">&lt;/</span><span class="nt">a</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&gt;</span><span class="ni">&amp;nbsp;&amp;nbsp;</span><span class="p">&lt;</span><span class="nt">a</span>
+</span></span><span class="line"><span class="cl">          <span class="na">href</span><span class="o">=</span><span class="s">&#34;//reg.jd.com/reg/person?ReturnUrl=https%3A//www.jd.com/&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="na">class</span><span class="o">=</span><span class="s">&#34;link-regist style-red&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&gt;</span>免费注册<span class="p">&lt;/</span><span class="nt">a</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore2&#34;</span> <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_03&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">a</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;//order.jd.com/center/list.action&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&gt;</span>我的订单<span class="p">&lt;/</span><span class="nt">a</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span>
+</span></span><span class="line"><span class="cl">        <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore3 dropdown&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">id</span><span class="o">=</span><span class="s">&#34;ttbar-myjd&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_04&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt cw-icon&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">a</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;//home.jd.com/&#34;</span><span class="p">&gt;</span>我的京东<span class="p">&lt;/</span><span class="nt">a</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;iconfont&#34;</span><span class="p">&gt;</span><span class="ni">&amp;#xe610;</span><span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;ci-right&#34;</span><span class="p">&gt;&lt;</span><span class="nt">s</span><span class="p">&gt;</span>◇<span class="p">&lt;/</span><span class="nt">s</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dd dropdown-layer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore4&#34;</span> <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_05&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">a</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;//vip.jd.com/&#34;</span><span class="p">&gt;</span>京东会员<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore5&#34;</span> <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_06&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt&#34;</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;//b.jd.com/&#34;</span><span class="p">&gt;</span>企业采购<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span>
+</span></span><span class="line"><span class="cl">        <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore8 dropdown&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">id</span><span class="o">=</span><span class="s">&#34;ttbar-serv&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_07&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt cw-icon&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          客户服务<span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;iconfont&#34;</span><span class="p">&gt;</span><span class="ni">&amp;#xe610;</span><span class="p">&lt;/</span><span class="nt">i</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;ci-right&#34;</span><span class="p">&gt;&lt;</span><span class="nt">s</span><span class="p">&gt;</span>◇<span class="p">&lt;/</span><span class="nt">s</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dd dropdown-layer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span>
+</span></span><span class="line"><span class="cl">        <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore9 dropdown&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">id</span><span class="o">=</span><span class="s">&#34;ttbar-navs&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_08&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt cw-icon&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          网站导航<span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;iconfont&#34;</span><span class="p">&gt;</span><span class="ni">&amp;#xe610;</span><span class="p">&lt;/</span><span class="nt">i</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;ci-right&#34;</span><span class="p">&gt;&lt;</span><span class="nt">s</span><span class="p">&gt;</span>◇<span class="p">&lt;/</span><span class="nt">s</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dd dropdown-layer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;spacer&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span>
+</span></span><span class="line"><span class="cl">        <span class="na">class</span><span class="o">=</span><span class="s">&#34;fore10 mobile&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">id</span><span class="o">=</span><span class="s">&#34;J_mobile&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">clstag</span><span class="o">=</span><span class="s">&#34;h|keycount|head|topbar_09&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;dt mobile_txt&#34;</span><span class="p">&gt;</span>手机京东<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mobile_static&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mobile_static_qrcode&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;J_mobile_pop&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mod_loading mobile_pop&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>浏览器渲染后的样子：</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/7eeeaf91d866d84b026279275e5dcaca.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/7eeeaf91d866d84b026279275e5dcaca.png, https://img-blog.csdnimg.cn/img_convert/7eeeaf91d866d84b026279275e5dcaca.png 1.5x, https://img-blog.csdnimg.cn/img_convert/7eeeaf91d866d84b026279275e5dcaca.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/7eeeaf91d866d84b026279275e5dcaca.png"
+        title="image-20210513000033830" /></p>
+<p>前端工程师负责编写网页的源代码。</p>
+<p>浏览器负责将网页渲染成我们想要的样子。</p>
+<h3 id="51-浏览器的问题">5.1. 浏览器的问题</h3>
+<p>市面上存在有很多不同的浏览器。</p>
+<p>在万维网的初期，网页编写并没有标准。</p>
+<p>于是就出现了这种情况：</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/39c56deb33bbe0ab75d15bd0e588ac4d.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/39c56deb33bbe0ab75d15bd0e588ac4d.png, https://img-blog.csdnimg.cn/img_convert/39c56deb33bbe0ab75d15bd0e588ac4d.png 1.5x, https://img-blog.csdnimg.cn/img_convert/39c56deb33bbe0ab75d15bd0e588ac4d.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/39c56deb33bbe0ab75d15bd0e588ac4d.png"
+        title="image-20210513000559333" /></p>
+<h3 id="52-w3c-的建立">5.2. W3C 的建立</h3>
+<p>伯纳斯李 1994 年建立<mark>万维网联盟（W3C）</mark></p>
+<p>W3C 的出现为了<mark>制订网页开发的标准</mark>，以使同一个网页在不同的浏览器中有相同的效果。</p>
+<p>所以，我们需要制订我们编写的网页都需要遵循 W3C 的规范！</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/4e418cd3f56383eb8e183ebc9fefbba7.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/4e418cd3f56383eb8e183ebc9fefbba7.png, https://img-blog.csdnimg.cn/img_convert/4e418cd3f56383eb8e183ebc9fefbba7.png 1.5x, https://img-blog.csdnimg.cn/img_convert/4e418cd3f56383eb8e183ebc9fefbba7.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/4e418cd3f56383eb8e183ebc9fefbba7.png"
+        title="image-20210513000825367" /></p>
+<h3 id="53-网页的结构思想">5.3. 网页的结构思想</h3>
+<p>根据 W3C 标准，一个网页主要由三部分组成：结构、表现还有行为。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/0ed1e4aad138cd330de11b0eedc7c131.png"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/0ed1e4aad138cd330de11b0eedc7c131.png, https://img-blog.csdnimg.cn/img_convert/0ed1e4aad138cd330de11b0eedc7c131.png 1.5x, https://img-blog.csdnimg.cn/img_convert/0ed1e4aad138cd330de11b0eedc7c131.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/0ed1e4aad138cd330de11b0eedc7c131.png"
+        title="image-20210513001146250" /></p>
+<h4 id="结构表现行为">结构、表现、行为</h4>
+<ul>
+<li>结构（骨架）：HTML 用于描述页面的结构</li>
+<li>表现（皮肤）：CSS 用于控制页面中元素的样式</li>
+<li>行为（交互）：JavaScript 用于响应用户操作</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/aca232ec5c0455769771fbf68c06c747.gif"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/aca232ec5c0455769771fbf68c06c747.gif, https://img-blog.csdnimg.cn/img_convert/aca232ec5c0455769771fbf68c06c747.gif 1.5x, https://img-blog.csdnimg.cn/img_convert/aca232ec5c0455769771fbf68c06c747.gif 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/aca232ec5c0455769771fbf68c06c747.gif"
+        title="nsyjg-dwl0d" /></p>
+<h2 id="6-网页的基本结构">6. 网页的基本结构</h2>
+<h3 id="61-迭代">6.1. 迭代</h3>
+<p>网页的版本</p>
+<ul>
+<li>HTML4</li>
+<li>XHTML2.0</li>
+<li>HTML5</li>
+</ul>
+<h3 id="62-文档声明doctype">6.2. 文档声明（doctype）</h3>
+<p>文档声明用来告诉浏览器当前网页的版本</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- html5的文档声明 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!-- 或者 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="63-字符编码">6.3. 字符编码</h3>
+<p>所有的数据在计算机中存储时都是以二进制形式存储的，文字也不例外。</p>
+<p>所以一段文字在存储到内存中时，都需要转换为二进制编码当我们读取这段文字时，计算机会将编码转换为字符，供我们阅读</p>
+<h4 id="编码">编码</h4>
+<p>将字符转换为二进制码的过程称为编码</p>
+<h4 id="解码">解码</h4>
+<p>将二进制码转换为字符的过程称为解码</p>
+<h4 id="字符集charset">字符集（charset）</h4>
+<p>编码和解码所采用的规则称为字符集（相当于密码本）</p>
+<h4 id="乱码">乱码</h4>
+<p>如果编码和解码所采用的字符集不同就会出现乱码问题。</p>
+<p>可以通过 meta 标签来设置网页的字符集，避免乱码问题</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span> <span class="p">/&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="64-常见的字符集">6.4. 常见的字符集</h3>
+<h4 id="ascii">ASCII</h4>
+<p>ASCII(American Standard Code for Information Interchange)：美国信息交换标准代码</p>
+<p>在所有字符集中，最知名的可能要数被称为 ASCII 的<mark>8 位字符</mark>了。美国信息交换标准代码是由美国国家标准学会(American National Standard Institute , ANSI )制定的，是一种标准的<mark>单字节字符编码</mark>方案，用于基于文本的数据。它最初是美国国家标准，供不同计算机在相互通信时用作共同遵守的西文字符编码标准，后来它被国际标准化组织（International Organization for Standardization, ISO）定为国际标准，称为 ISO 646 标准。适用于所有拉丁文字字母</p>
+<p>ASCII 码使用指定的 7 位或 8 位二进制数组合来表示 128 或 256 种可能的字符。标准 ASCII 码也叫基础 ASCII 码，使用 7 位二进制数（剩下的 1 位二进制为 0）来表示所有的大写和小写字母，数字 0 到 9、标点符号，以及在美式英语中使用的特殊控制字符</p>
+<p>ASCII 码表：<a href="http://www.asciitable.com/" target="_blank" rel="noopener noreffer">Ascii Table - ASCII character codes and html, octal, hex and decimal chart conversion</a></p>
+<h4 id="iso-8859-1">ISO-8859-1</h4>
+<p>ISO-8859-1 编码是<mark>单字节编码</mark>，向下兼容 ASCII，其编码范围是 0x00-0xFF，0x00-0x7F 之间完全和 ASCII 一致，0x80-0x9F 之间是控制字符，0xA0-0xFF 之间是文字符号。</p>
+<p>ISO 码表：<a href="https://www.w3school.com.cn/charsets/ref_html_8859.asp" target="_blank" rel="noopener noreffer">HTML ISO-8859-1 参考手册</a></p>
+<h4 id="gb2312">GB2312</h4>
+<p>GB2312（信息交换用汉字编码字符集）是由中国国家标准总局 1980 年发布。基本集共收入汉字 6763 个和非汉字图形字符 682 个。GB 2312 的出现，基本满足了汉字的计算机处理需要，它所收录的汉字已经覆盖中国大陆 99.75%的使用频率。</p>
+<h4 id="gbk">GBK</h4>
+<p>GBK（即“国标”、“扩展”汉语拼音的第一个字母），汉字编码字符集。2000 年已被 GB18030-2000 国家强制标准替代。 2005 年 GB18030-2005 发布，替代了 GB18030-2000。</p>
+<p>GBK 使用了<mark>双字节编码</mark>方案，其编码范围从 8140 至 FEFE（剔除 xx7F），共 23940 个码位，共收录了 21003 个汉字，完全兼容 GB2312-80 标准，支持国际标准 ISO/IEC10646-1 和国家标准 GB13000-1 中的全部中日韩汉字，并包含了 BIG5 编码中的所有汉字。</p>
+<h4 id="big5">Big5</h4>
+<p>Big5，又称为大五码或五大码，是使用繁体中文（正体中文）社区中最常用的电脑汉字字符集标准，共收录 13,060 个汉字。</p>
+<p>Big5 虽普及于台湾、香港与澳门等繁体中文通行区，但长期以来并非当地的国家/地区标准或官方标准，而只是业界标准。倚天中文系统、Windows 繁体中文版等主要系统的字符集都是以 Big5 为基准，但厂商又各自增加不同的造字与造字区，派生成多种不同版本。</p>
+<h4 id="utf-8">UTF-8</h4>
+<p>UTF-8（8 位元，Universal Character Set/Unicode Transformation Format）是针对 Unicode 的一种<mark>可变长度字符编码</mark>，也叫万国码、统一码。它可以用来表示 Unicode 标准中的任何字符，而且其编码中的第一个字节仍<mark>与 ASCII 相容</mark>，使得原来处理 ASCII 字符的软件无须或只进行少部分修改后，便可继续使用。</p>
+<h4 id="utf-16">UTF-16</h4>
+<p>UTF-16 是 Unicode 的其中一个使用方式。UTF-16 比起 UTF-8，好处在于大部分字符都以<mark>固定长度的字节</mark>（2 字节）储存，但 UTF-16 却<mark>无法兼容于 ASCII 编码</mark>。</p>
+<h4 id="unicode">Unicode</h4>
+<p>Unicode 只是一组字符设定或者说是从数字和字符之间的逻辑映射的<mark>概念编码</mark>，但是它并没有指定代码点如何在计算机上存储。UCS4、UTF-8、UTF-16（UTF 后的数字代表编码的最小单位，如 UTF-8 表示最小单位 1 字节，所以它可以使用 1、2、3 字节等进行编码，UTF-16 表示最小单位 2 字节，所以它可以使用 2、4 字节进行编码）都是 Unicode 的编码方案。UTF-8 因可以兼容 ASCII 而被广泛使用。</p>
+<p>如果把各种文字编码形容为各地的方言，那么 Unicode 就是世界各国合作开发的一种语言。</p>
+<h3 id="65-html5-的基本结构">6.5. HTML5 的基本结构</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- 文档声明，声明当前网页的版本 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!-- html的根标签（元素），网页中的所有内容都要写根元素的里边 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- head是网页的头部，head中的内容不会在网页中直接出现，主要用来帮助浏览器或搜索引擎来解析网页 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- meta标签用来设置网页的元数据，这里meta用来设置网页的字符集，避免乱码问题 --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- title中的内容会显示在浏览器的标题栏，搜索引擎会主要根据title中的内容来判断网页的主要内容 --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>网页的标题<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- body是htm1的子元素，表示网页的主体，网页中所有的可见内容都应该写在body里 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- h1网页的一级标题 --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>网页的大标题<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-06-15</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/htmlcss/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%89%8D%E7%AB%AF/">前端</a>,&nbsp;<a href="/tags/html/">HTML</a>,&nbsp;<a href="/tags/css/">CSS</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/js%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/" class="prev" rel="prev" title="JS从入门到精通"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>JS从入门到精通</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Milo</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/valine/Valine.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"mA5f3eaitvM7L2ju1lSv6eMv-9Nh9j0Va","appKey":"qt9jwVRbCP0KMK1VpCrOhF1N","avatar":"robohash","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"},"twemoji":true};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
