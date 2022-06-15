@@ -4,7 +4,15 @@
         <link>https://milo980412.github.io/tags/react/</link>
         <description>React - 标签 - Milo&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>250533497@qq.com (Milo)</managingEditor>
-            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Sun, 01 May 2022 09:48:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/tags/react/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Wed, 15 Jun 2022 12:28:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/tags/react/" rel="self" type="application/rss+xml" /><item>
+    <title>React从入门到精通</title>
+    <link>https://milo980412.github.io/react%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</link>
+    <pubDate>Wed, 15 Jun 2022 12:28:43 &#43;0800</pubDate>
+    <author>Milo</author>
+    <guid>https://milo980412.github.io/react%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</guid>
+    <description><![CDATA[引用 B站视频 尚硅谷React技术全家桶全套完整版（零基础入门到精通/男神天禹） 引用 笔记链接 React技术全家桶 部分笔记内容如下： 01_基础知]]></description>
+</item>
+<item>
     <title>前端学习计划</title>
     <link>https://milo980412.github.io/frontend/</link>
     <pubDate>Sun, 01 May 2022 09:48:43 &#43;0800</pubDate>
