@@ -3,9 +3,9 @@
 
 各位留个友链格式如下：
 - name = "Milo"
-- url = ""
-- logo = ""
-- word = ""
+- url = "https://milo980412.github.io"
+- logo = "https://milo980412.github.io/images/aniya.webp"
+- word = "保持谦逊，不断学习"
 ----
 {{< friend-css comment="首先引入friend的js" >}}
 {{< friend
