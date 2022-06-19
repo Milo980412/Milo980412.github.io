@@ -29,6 +29,14 @@
     <description><![CDATA[2.两数相加 问题 给你两个非空的链表,表示两个非负的整数。它们每位数字都是按照逆序的方式存储的,并且每个节点只能存储一位数字。 请你将两个数相加]]></description>
 </item>
 <item>
+    <title>Javascript中的高阶函数</title>
+    <link>https://milo980412.github.io/javascript%E4%B8%AD%E7%9A%84%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/</link>
+    <pubDate>Sun, 05 Jun 2022 13:45:43 &#43;0800</pubDate>
+    <author>Milo</author>
+    <guid>https://milo980412.github.io/javascript%E4%B8%AD%E7%9A%84%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/</guid>
+    <description><![CDATA[高阶函数是指以函数作为参数的函数，并且可以将函数作为结果返回的函数。 1. 高阶函数 接受一个或多个函数作为输入 输出一个函数 至少满足以上一个条件的函]]></description>
+</item>
+<item>
     <title>力扣 0001.两数之和</title>
     <link>https://milo980412.github.io/leetcode-0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
     <pubDate>Sun, 05 Jun 2022 07:12:34 &#43;0800</pubDate>
