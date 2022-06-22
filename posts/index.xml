@@ -58,7 +58,7 @@
     <pubDate>Sat, 04 Jun 2022 10:32:43 &#43;0800</pubDate>
     <author>Milo</author>
     <guid>https://milo980412.github.io/leetcode%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</guid>
-    <description><![CDATA[时间复杂度 空间复杂度 链表基础知识 链表是一种物理存储单元上非连续、非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。 链表由]]></description>
+    <description><![CDATA[时间复杂度 一. 大 O 表示法 关于复杂度的计算，我们采用的是 大 O 表示法 ，它用来描述算法性能和复杂程度 常见的表示 符号大O标记法 名称 O(1) 常数 O(log N) 对数 O(N) 线]]></description>
 </item>
 <item>
     <title>JS从入门到精通</title>

@@ -17,6 +17,13 @@ word="不想当写手的码农不是好咸鱼_(xз」∠)_"
 >}}
 
 {{< friend
+name="李立超"
+url="https://www.lilichao.com/"
+logo="https://my-wp.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2022/03/20220318131452213-120x120.jpg"
+word="前端我超哥!"
+>}}
+
+{{< friend
 name="小丞的前端日记"
 url="https://linjuncheng.cn/"
 logo="https://linjuncheng.cn/orange.png"
