@@ -45,8 +45,12 @@
 
 - 英语四六级
 - `HTML&CSS` 入门
-- `Less` 业余
+- `Less` 了解
 - `Javascript` 入门
+- `TS` 了解
+- `ES6` 入门
+- `NodeJs` 入门
+- `Wepack` 入门
 - `React` 入门
 - `Python` 入门
 - `Java` 业余
