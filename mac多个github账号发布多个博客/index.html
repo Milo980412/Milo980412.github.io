@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/milo980412.github.io\/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2\/"
-        },"genre": "posts","keywords": "Github Pages, Git, Hugo, Vuepress, 博客","wordcount":  2561 ,
+        },"genre": "posts","keywords": "Github Pages, Git, Hugo, Vuepress, 博客","wordcount":  2831 ,
         "url": "https:\/\/milo980412.github.io\/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2\/","datePublished": "2022-06-10T10:48:43+08:00","dateModified": "2022-06-10T10:48:43+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -104,7 +104,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">解决一台电脑实现多个Github账号发布博客</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Milo</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>技术</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-10">2022-06-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2561 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-10">2022-06-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2831 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 6 分钟&nbsp;<span id="/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2/" class="leancloud_visitors" data-flag-title="解决一台电脑实现多个Github账号发布博客">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -615,7 +615,42 @@
 <pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">./deploy.sh
 </span></span></code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><h4 id="24-解决github主账号项目推送以及contribution不统计问题">2.4 解决Github主账号项目推送以及Contribution不统计问题</h4>
+<p>虽然我们管理了两个SSH key，可以一台电脑实现多个Github账号发布博客，但是推送我们主Github的其他项目是还是要输入密码，因为我们做好了SSH key设置，所以我们在push项目时用</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git push git@github.com:Milo980412/Milo980412.github.io.git master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>代替原来的push方式即可</p>
+<p>对于Github主账号推送项目Contribution不统计问题，我们重新设置一下全局git信息即可</p>
+<p><strong>设置全局用户名和邮箱配置</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name
+</span></span><span class="line"><span class="cl">git config --global user.email
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>例如</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global <span class="s2">&#34;Milo980412&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global XXX@XX.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>以上就解决了Github主账号项目推送以及Contribution不统计问题</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
