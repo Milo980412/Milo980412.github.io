@@ -346,7 +346,7 @@ git push -f git@vue.github.com:MiloReact/MiloReact.github.io.git master
 ```
 #### 2.4 解决Github主账号项目推送以及Contribution不统计问题
 
-虽然我们管理了两个SSH key，可以一台电脑实现多个Github账号发布博客，但是推送我们主Github的其他项目是还是要输入密码
+虽然我们管理了两个SSH key，可以一台电脑实现多个Github账号发布博客，但是推送我们主Github的其他项目是还是要输入密码.
 
 对于Github主账号推送项目Contribution不统计问题，我们重新设置一下全局git信息即可
 
