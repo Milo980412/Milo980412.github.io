@@ -234,14 +234,14 @@ cd .git
 执行以下命令，用来**单独设置用户名/邮箱**
 
 ```sh
-git config user.name XXXX #对应密钥的用户名
+git config user.name "XXXX" #对应密钥的用户名
 git config user.email XXX@XX.com #对应密钥的邮箱
 ```
 
 例如
 
 ```sh
-git config user.name Milo980412
+git config user.name "Milo980412"
 git config user.email XXX@XX.com
 ```
 
