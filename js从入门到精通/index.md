@@ -1,7 +1,10 @@
 # JS从入门到精通
 
 {{< admonition quote >}}
-**笔记链接** [尚硅谷最新版JavaScript基础全套教程完整版(140集实战教学,JS从入门到精通)](https://www.yuque.com/books/share/8400860b-c820-44d7-9664-0ebe8a534277?#)
+**笔记链接1** [尚硅谷最新版JavaScript基础全套教程完整版(140集实战教学,JS从入门到精通)](https://www.yuque.com/books/share/8400860b-c820-44d7-9664-0ebe8a534277?#)
+{{< /admonition >}}
+{{< admonition quote >}}
+**笔记链接2** [Milo的前端日记](https://miloreact.github.io/pages/javascript/start.html)
 {{< /admonition >}}
 
 ### 目录
