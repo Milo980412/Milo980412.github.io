@@ -6,9 +6,9 @@
 
 ## 其他地址
 
-- Github：https://github.com/Milo980412/NOTE_HTML-CSS
-- 语雀：https://www.yuque.com/u26476221/cr1daz
-- Milo前端日记：https://miloreact.github.io/pages/htmlcss/start.html
+- Github：[https://github.com/Milo980412/NOTE_HTML-CSS](https://github.com/Milo980412/NOTE_HTML-CSS)
+- 语雀：[https://www.yuque.com/u26476221/cr1daz](https://www.yuque.com/u26476221/cr1daz)
+- Milo前端日记：[HTML&CSS](https://miloreact.github.io/pages/htmlcss/start.html)
 
 ## 目录
 
