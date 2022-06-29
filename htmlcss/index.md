@@ -36,7 +36,7 @@
 
 ## 参考
 
-学习视频 [尚硅谷Web前端零基础入门HTML5+CSS3基础教程丨初学者从入门到精通](https://www.bilibili.com/video/BV1XJ411X7Ud?spm_id_from=333.337.search-card.all.click)
+> 学习视频 [尚硅谷Web前端零基础入门HTML5+CSS3基础教程丨初学者从入门到精通](https://www.bilibili.com/video/BV1XJ411X7Ud?spm_id_from=333.337.search-card.all.click)
 
-笔记参考 [来自vectorX大佬的学习笔记](https://www.yuque.com/u21195183/hfcamg)
+> 笔记参考 [来自vectorX大佬的学习笔记](https://www.yuque.com/u21195183/hfcamg)
 

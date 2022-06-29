@@ -39,9 +39,6 @@ JS高阶
 - JS高阶函数
 
 ## 参考
-{{< admonition quote >}}
-**视频链接** [尚硅谷最新版JavaScript基础全套教程完整版(140集实战教学,JS从入门到精通)](https://www.yuque.com/books/share/8400860b-c820-44d7-9664-0ebe8a534277?#)
-{{< /admonition >}}
-{{< admonition quote >}}
+> 视频链接 [尚硅谷最新版JavaScript基础全套教程完整版(140集实战教学,JS从入门到精通)](https://www.yuque.com/books/share/8400860b-c820-44d7-9664-0ebe8a534277?#)
 
 > 笔记参考 [来自vectorX大佬的学习笔记](https://www.yuque.com/u21195183/phhed3)
