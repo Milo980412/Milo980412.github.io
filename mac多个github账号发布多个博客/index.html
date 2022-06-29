@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/milo980412.github.io\/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2\/"
-        },"genre": "posts","keywords": "Github Pages, Git, Hugo, Vuepress, 博客","wordcount":  2784 ,
+        },"genre": "posts","keywords": "Github Pages, Git, Hugo, Vuepress, 博客","wordcount":  2421 ,
         "url": "https:\/\/milo980412.github.io\/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2\/","datePublished": "2022-06-10T10:48:43+08:00","dateModified": "2022-06-10T10:48:43+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -104,8 +104,8 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">解决一台电脑实现多个Github账号发布博客</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Milo</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>技术</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-10">2022-06-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2784 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 6 分钟&nbsp;<span id="/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2/" class="leancloud_visitors" data-flag-title="解决一台电脑实现多个Github账号发布博客">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-10">2022-06-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2421 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 5 分钟&nbsp;<span id="/mac%E5%A4%9A%E4%B8%AAgithub%E8%B4%A6%E5%8F%B7%E5%8F%91%E5%B8%83%E5%A4%9A%E4%B8%AA%E5%8D%9A%E5%AE%A2/" class="leancloud_visitors" data-flag-title="解决一台电脑实现多个Github账号发布博客">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -390,60 +390,18 @@
 </span></span><span class="line"><span class="cl">git config --global --unset user.email
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>例如</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global --unset Milo980412
-</span></span><span class="line"><span class="cl">git config --global --unset XXX@XX.com
-</span></span></code></pre></td></tr></table>
-</div>
 </div><h3 id="2-hugo和vuepress设置">2 Hugo和Vuepress设置</h3>
 <p>这边讲一下怎么在博客（本地仓库）使用我们配置好的两个SSH Key</p>
-<h4 id="21-重新设置git">2.1 重新设置.git</h4>
-<p>进入你博客的目录下，用<code>ls -a</code>可以看到<code>.git</code>文件夹</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ls -a
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>例如</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"> milo@MilodeMacBook-Pro ~/Documents/vuepress-starter % ls -a
-</span></span><span class="line"><span class="cl">.            .git         deploy.sh    node_modules yarn.lock
-</span></span><span class="line"><span class="cl">..           README.md    docs         package.json
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>分别<strong>进入两个博客的.git目录</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> .git
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>执行以下命令，用来<strong>单独设置用户名/邮箱</strong></p>
+<h4 id="21-重新设置git配置">2.1 重新设置Git配置</h4>
+<p><strong>设置全局用户名和邮箱配置</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config user.name <span class="s2">&#34;XXXX&#34;</span> <span class="c1">#对应密钥的用户名</span>
-</span></span><span class="line"><span class="cl">git config user.email XXX@XX.com <span class="c1">#对应密钥的邮箱</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name
+</span></span><span class="line"><span class="cl">git config --global user.email
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>例如</p>
@@ -453,21 +411,11 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config user.name <span class="s2">&#34;Milo980412&#34;</span>
-</span></span><span class="line"><span class="cl">git config user.email XXX@XX.com
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global <span class="s2">&#34;Milo980412&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global XXX@XX.com
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>⚠️注意：如果报错<code>fatal: not in a git directory</code>，说明你没有进入.git目录下</p>
-<p><strong>验证</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --list
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>会出现一堆内容，看user.name和user.email的值对不对就行</p>
+</div><p>⚠️注意：1.5 Git配置更改 中如果全局设置没啥问题的 1.5中就不用更改了，这里也不用重新设置了</p>
 <h4 id="22-git命令push博客项目">2.2 Git命令push博客项目</h4>
 <p><strong>一般我们push更新Hugo博客内容的流程是</strong></p>
 <div class="highlight"><div class="chroma">
@@ -615,33 +563,7 @@
 <pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">./deploy.sh
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="24-解决github主账号项目推送以及contribution不统计问题">2.4 解决Github主账号项目推送以及Contribution不统计问题</h4>
-<p>虽然我们管理了两个SSH key，可以一台电脑实现多个Github账号发布博客，但是推送我们主Github的其他项目是还是要输入密码.</p>
-<p>对于Github主账号推送项目Contribution不统计问题，我们重新设置一下全局git信息即可</p>
-<p><strong>设置全局用户名和邮箱配置</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name
-</span></span><span class="line"><span class="cl">git config --global user.email
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>例如</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global <span class="s2">&#34;Milo980412&#34;</span>
-</span></span><span class="line"><span class="cl">git config --global XXX@XX.com
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>以上就解决了Github主账号项目推送以及Contribution不统计问题</p>
-</div><div class="post-footer" id="post-footer">
+</div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">

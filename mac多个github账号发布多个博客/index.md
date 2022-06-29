@@ -198,62 +198,27 @@ git config --global --unset user.name
 git config --global --unset user.email
 ```
 
-例如
-
-```sh
-git config --global --unset Milo980412
-git config --global --unset XXX@XX.com
-```
-
 ### 2 Hugo和Vuepress设置
 
 这边讲一下怎么在博客（本地仓库）使用我们配置好的两个SSH Key
 
-#### 2.1 重新设置.git
+#### 2.1 重新设置Git配置
 
-进入你博客的目录下，用`ls -a`可以看到`.git`文件夹
+**设置全局用户名和邮箱配置**
 
 ```sh
-ls -a
+git config --global user.name
+git config --global user.email
 ```
 
 例如
 
 ```sh
- milo@MilodeMacBook-Pro ~/Documents/vuepress-starter % ls -a
-.            .git         deploy.sh    node_modules yarn.lock
-..           README.md    docs         package.json
+git config --global "Milo980412"
+git config --global XXX@XX.com
 ```
 
-分别**进入两个博客的.git目录**
-
-```sh
-cd .git
-```
-
-执行以下命令，用来**单独设置用户名/邮箱**
-
-```sh
-git config user.name "XXXX" #对应密钥的用户名
-git config user.email XXX@XX.com #对应密钥的邮箱
-```
-
-例如
-
-```sh
-git config user.name "Milo980412"
-git config user.email XXX@XX.com
-```
-
-⚠️注意：如果报错`fatal: not in a git directory`，说明你没有进入.git目录下
-
-**验证**
-
-```sh
-git config --list
-```
-
-会出现一堆内容，看user.name和user.email的值对不对就行
+⚠️注意：1.5 Git配置更改 中如果全局设置没啥问题的 1.5中就不用更改了，这里也不用重新设置了
 
 #### 2.2 Git命令push博客项目
 
@@ -344,26 +309,5 @@ git push -f git@vue.github.com:MiloReact/MiloReact.github.io.git master
 ```sh
 ./deploy.sh
 ```
-#### 2.4 解决Github主账号项目推送以及Contribution不统计问题
-
-虽然我们管理了两个SSH key，可以一台电脑实现多个Github账号发布博客，但是推送我们主Github的其他项目是还是要输入密码.
-
-对于Github主账号推送项目Contribution不统计问题，我们重新设置一下全局git信息即可
-
-**设置全局用户名和邮箱配置**
-
-```sh
-git config --global user.name
-git config --global user.email
-```
-
-例如
-
-```sh
-git config --global "Milo980412"
-git config --global XXX@XX.com
-```
-
-以上就解决了Github主账号项目推送以及Contribution不统计问题
 
 
