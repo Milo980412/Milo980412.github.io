@@ -12,7 +12,7 @@
     <pubDate>Mon, 04 Jul 2022 13:45:43 &#43;0800</pubDate>
     <author>Milo</author>
     <guid>https://milo980412.github.io/macos%E4%B8%8Bhombrew%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
-    <description><![CDATA[MacOS HomBrew 安装教程 完美解决方案 自动脚本(全部国内地址)（复制下面一句脚本到终端中粘贴回车) 苹果电脑 常规安装脚本（推荐 完全体 几分钟安装完成）： 1 /bin/zsh -c]]></description>
+    <description><![CDATA[MacOS HomBrew 安装教程 完美解决方案 自动脚本(全部国内地址)（复制下面一句脚本到终端中粘贴回车) 苹果电脑 常规安装脚本（几分钟安装完成）： 1 /bin/zsh -c &#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&#34; MacOS 打]]></description>
 </item>
 <item>
     <title>React从入门到精通</title>

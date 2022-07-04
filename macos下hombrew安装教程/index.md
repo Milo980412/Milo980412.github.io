@@ -5,7 +5,7 @@
 
 ## 自动脚本(全部国内地址)（复制下面一句脚本到终端中粘贴回车)
 
-**苹果电脑 常规安装脚本（推荐 完全体 几分钟安装完成）：**
+**苹果电脑 常规安装脚本（几分钟安装完成）：**
 
 ```bash
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
