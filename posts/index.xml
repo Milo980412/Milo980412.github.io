@@ -4,7 +4,15 @@
         <link>https://milo980412.github.io/posts/</link>
         <description>所有文章 | Milo&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>250533497@qq.com (Milo)</managingEditor>
-            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Mon, 04 Jul 2022 13:45:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Wed, 06 Jul 2022 10:48:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>MacOS 使用 npm 安装 SASS 与使用教程</title>
+    <link>https://milo980412.github.io/macos-%E4%BD%BF%E7%94%A8-npm-%E5%AE%89%E8%A3%85-sass-%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
+    <pubDate>Wed, 06 Jul 2022 10:48:43 &#43;0800</pubDate>
+    <author>Milo</author>
+    <guid>https://milo980412.github.io/macos-%E4%BD%BF%E7%94%A8-npm-%E5%AE%89%E8%A3%85-sass-%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
+    <description><![CDATA[MacOS 使用 npm 安装 SASS 与使用教程 这里 Milo 使用 npm 来安装 sass 并使用，比较方便快捷 1 npm 的安装 首先确保你有node.js，才能使用npm npm是Node.js (opens]]></description>
+</item>
+<item>
     <title>MacOS下HomBrew安装教程</title>
     <link>https://milo980412.github.io/macos%E4%B8%8Bhombrew%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
     <pubDate>Mon, 04 Jul 2022 13:45:43 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>Milo</author>
     <guid>https://milo980412.github.io/javascript%E4%B8%AD%E7%9A%84%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/</guid>
     <description><![CDATA[高阶函数是指以函数作为参数的函数，并且可以将函数作为结果返回的函数。 1. 高阶函数 接受一个或多个函数作为输入 输出一个函数 至少满足以上一个条件的函]]></description>
-</item>
-<item>
-    <title>力扣 0001.两数之和</title>
-    <link>https://milo980412.github.io/leetcode-0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
-    <pubDate>Sun, 05 Jun 2022 07:12:34 &#43;0800</pubDate>
-    <author>Milo</author>
-    <guid>https://milo980412.github.io/leetcode-0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
-    <description><![CDATA[1.两数之和 问题 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出和为目标值 target 的那两个整数，并返回它们的数组下标。 信息 你可以]]></description>
 </item>
 </channel>
 </rss>
