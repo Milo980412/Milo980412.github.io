@@ -4,7 +4,15 @@
         <link>https://milo980412.github.io/posts/</link>
         <description>所有文章 | Milo&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>250533497@qq.com (Milo)</managingEditor>
-            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Wed, 06 Jul 2022 10:48:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Thu, 07 Jul 2022 13:45:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>MacOS如何生成目录树？</title>
+    <link>https://milo980412.github.io/macos%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E6%A0%91/</link>
+    <pubDate>Thu, 07 Jul 2022 13:45:43 &#43;0800</pubDate>
+    <author>Milo</author>
+    <guid>https://milo980412.github.io/macos%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E6%A0%91/</guid>
+    <description><![CDATA[MacOS如何生成目录树？ 在一个项目的 README 中，我们往往会想把项目的目录结构进行一下介绍或者注释，这样方便其他人接手项目时快速熟悉，同时也方便自]]></description>
+</item>
+<item>
     <title>MacOS 使用 npm 安装 SASS 与使用教程</title>
     <link>https://milo980412.github.io/macos-%E4%BD%BF%E7%94%A8-npm-%E5%AE%89%E8%A3%85-sass-%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
     <pubDate>Wed, 06 Jul 2022 10:48:43 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>Milo</author>
     <guid>https://milo980412.github.io/leetcode-0002.%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/</guid>
     <description><![CDATA[2.两数相加 问题 给你两个非空的链表,表示两个非负的整数。它们每位数字都是按照逆序的方式存储的,并且每个节点只能存储一位数字。 请你将两个数相加]]></description>
-</item>
-<item>
-    <title>Javascript中的高阶函数</title>
-    <link>https://milo980412.github.io/javascript%E4%B8%AD%E7%9A%84%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/</link>
-    <pubDate>Sun, 05 Jun 2022 13:45:43 &#43;0800</pubDate>
-    <author>Milo</author>
-    <guid>https://milo980412.github.io/javascript%E4%B8%AD%E7%9A%84%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0/</guid>
-    <description><![CDATA[高阶函数是指以函数作为参数的函数，并且可以将函数作为结果返回的函数。 1. 高阶函数 接受一个或多个函数作为输入 输出一个函数 至少满足以上一个条件的函]]></description>
 </item>
 </channel>
 </rss>
