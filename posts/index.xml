@@ -4,7 +4,15 @@
         <link>https://milo980412.github.io/posts/</link>
         <description>所有文章 | Milo&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>250533497@qq.com (Milo)</managingEditor>
-            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Thu, 07 Jul 2022 13:45:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>250533497@qq.com (Milo)</webMaster><lastBuildDate>Wed, 10 Aug 2022 13:45:43 &#43;0800</lastBuildDate><atom:link href="https://milo980412.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>从零搭建基于VuePress的文档博客</title>
+    <link>https://milo980412.github.io/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8Evuepress%E7%9A%84%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2/</link>
+    <pubDate>Wed, 10 Aug 2022 13:45:43 &#43;0800</pubDate>
+    <author>Milo</author>
+    <guid>https://milo980412.github.io/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8Evuepress%E7%9A%84%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2/</guid>
+    <description><![CDATA[从零搭建基于VuePress的文档博客 本文会帮助你从头搭建一个简单的 VuePress 文档，并且做一些简单的配置。 一、前提条件 VuePress 需要 Node.js &gt;= 8.6 直接点击下载，或者]]></description>
+</item>
+<item>
     <title>MacOS如何生成目录树？</title>
     <link>https://milo980412.github.io/macos%E5%A6%82%E4%BD%95%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E6%A0%91/</link>
     <pubDate>Thu, 07 Jul 2022 13:45:43 &#43;0800</pubDate>
@@ -75,14 +83,6 @@
     <author>Milo</author>
     <guid>https://milo980412.github.io/git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
     <description><![CDATA[引用 笔记来源 小丞前端日记 引言 Git 作为目前最强大的代码管理工具，相信大家都很熟悉了。它在我们的日常工作中起着至关重要的作用，我们可以用它来实现多]]></description>
-</item>
-<item>
-    <title>力扣 0002.两数相加</title>
-    <link>https://milo980412.github.io/leetcode-0002.%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/</link>
-    <pubDate>Mon, 06 Jun 2022 07:00:34 &#43;0800</pubDate>
-    <author>Milo</author>
-    <guid>https://milo980412.github.io/leetcode-0002.%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/</guid>
-    <description><![CDATA[2.两数相加 问题 给你两个非空的链表,表示两个非负的整数。它们每位数字都是按照逆序的方式存储的,并且每个节点只能存储一位数字。 请你将两个数相加]]></description>
 </item>
 </channel>
 </rss>
